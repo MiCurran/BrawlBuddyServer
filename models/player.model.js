@@ -25,6 +25,9 @@ const playerSchema = new Schema({
   },
   timesSearched: {
     type: Number,
+  },
+  season18Rating: {
+    type: Number,
   }
 }, {
   timestamps: true, // adds a createdAt and updatedAt values

@@ -31,7 +31,7 @@ const logger = winston.createLogger({
     ],
   });
  
- function initializeUsers (){
+ function updateUsers (){
 
     //start of update user routine
 setTimeout(
@@ -49,4 +49,4 @@ setTimeout(
   //end update user routine
 }
 
-module.exports = initializeUsers
+module.exports = updateUsers
